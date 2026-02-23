@@ -82,7 +82,7 @@ Make sure you have the following installed:
    ```bash
    npx nodemon server.js
    ```
-Server runs on http://localhost:3000
+   Server runs on http://localhost:3000
 
 ### 🎨 Frontend Setup
 
@@ -116,6 +116,7 @@ Server runs on http://localhost:3000
     }
 
  6. Response
-    -**Bug detection**
-    -**Code improvement suggestions**
-    -**Best-practice explanations**
+    
+    - **Bug detection**
+    - **Code improvement suggestions**
+    - **Best-practice explanations**
