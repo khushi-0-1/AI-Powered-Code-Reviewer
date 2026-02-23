@@ -100,7 +100,7 @@ Server runs on http://localhost:3000
 
 - **Then Paste code and click Review.**
 
-###🔌API Endpoints
+### 🔌API Endpoints
  1. Test Server
     ```http
     GET /
@@ -116,6 +116,6 @@ Server runs on http://localhost:3000
     }
 
  6. Response
-    1.Bug detection
-    2.Code improvement suggestions
-    3.Best-practice explanations
+    -**Bug detection**
+    -**Code improvement suggestions**
+    -**Best-practice explanations**
