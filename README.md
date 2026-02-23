@@ -1,4 +1,4 @@
-# AI-Powered Code Reviewer
+#  🤖 AI-Powered Code Reviewer
 
 An **AI-powered full-stack web application** that provides instant, professional-level code reviews using **Google Gemini AI**.  
 Built with the **MERN stack (Node.js, Express, React)**, this tool helps developers identify bugs, improve code quality, and follow best practices in real time.
@@ -98,22 +98,24 @@ Server runs on http://localhost:3000
    ```bash
    npm run dev
 
--**Then Paste code and click Review.**
+- **Then Paste code and click Review.**
 
-###API Endpoints
+### API Endpoints
  1. Test Server
-    ```bash
+    ```http
     GET /
    
  2. AI Code Review
-   POST /ai/get-review
+    ```http
+    POST /ai/get-review
 
- 3. Request Body
-   {
+ 4. Request Body
+    ```json
+    {
       "code": "your code here"
-   }
+    }
 
- 4. Response
+ 6. Response
   -Bug detection
   -Code improvement suggestions
   -Best-practice explanations
