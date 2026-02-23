@@ -1,11 +1,11 @@
-#  🤖 AI-Powered Code Reviewer
+# 🤖 AI-Powered Code Reviewer
 
 An **AI-powered full-stack web application** that provides instant, professional-level code reviews using **Google Gemini AI**.  
 Built with the **MERN stack (Node.js, Express, React)**, this tool helps developers identify bugs, improve code quality, and follow best practices in real time.
 
 ---
 
-## Features
+## 🚀 Features
 
 - **AI-Driven Code Analysis**  
   Uses **Gemini 2.0 Flash** to analyze up to **10,000 lines of code** in a single request.
@@ -32,7 +32,7 @@ Built with the **MERN stack (Node.js, Express, React)**, this tool helps develop
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -53,7 +53,7 @@ Built with the **MERN stack (Node.js, Express, React)**, this tool helps develop
 
 ---
 
-## Prerequisites
+## 📋 Prerequisites
 
 Make sure you have the following installed:
 
@@ -62,17 +62,17 @@ Make sure you have the following installed:
 
 ---
 
-## Installation & Setup
+## ⚙️ Installation & Setup
 
-### Backend Setup
+### 🔧 Backend Setup
 
 1. Navigate to the backend folder:
    ```bash
-      cd backend
+   cd backend
    ```
 2. Install dependencies:
    ```bash
-     npm install express dotenv cors @google/generative-ai
+   npm install express dotenv cors @google/generative-ai
    ```
 3. Create a .env file in the backend root:
    ```bash
@@ -84,7 +84,7 @@ Make sure you have the following installed:
    ```
 Server runs on http://localhost:3000
 
-### Frontend Setup
+### 🎨 Frontend Setup
 
 1. Navigate to the frontend folder:
    ```bash
@@ -92,7 +92,7 @@ Server runs on http://localhost:3000
 
 2. Install dependencies:
    ```bash
-    npm install axios prismjs react-simple-code-editor react-markdown rehype-highlight
+   npm install axios prismjs react-simple-code-editor react-markdown rehype-highlight
 
 3. Start the frontend development server:
    ```bash
@@ -100,7 +100,7 @@ Server runs on http://localhost:3000
 
 - **Then Paste code and click Review.**
 
-### API Endpoints
+###🔌API Endpoints
  1. Test Server
     ```http
     GET /
@@ -116,6 +116,6 @@ Server runs on http://localhost:3000
     }
 
  6. Response
-  -Bug detection
-  -Code improvement suggestions
-  -Best-practice explanations
+    1.Bug detection
+    2.Code improvement suggestions
+    3.Best-practice explanations
