@@ -32,7 +32,7 @@ Built with the **MERN stack (Node.js, Express, React)**, this tool helps develop
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - React (Vite)
@@ -69,15 +69,19 @@ Make sure you have the following installed:
 1. Navigate to the backend folder:
    ```bash
       cd backend
+   ```
 2. Install dependencies:
-  ```bash
+   ```bash
      npm install express dotenv cors @google/generative-ai
+   ```
 3. Create a .env file in the backend root:
    ```bash
    GEMINI_API_KEY=your_api_key_here
+   ```
 4. Start the backend server:
-  ```bash
-  npx nodemon server.js
+   ```bash
+   npx nodemon server.js
+   ```
 Server runs on http://localhost:3000
 
 ### Frontend Setup
@@ -98,8 +102,8 @@ Server runs on http://localhost:3000
 
 ###API Endpoints
  1. Test Server
-   ``bash
-   GET /
+    ```bash
+    GET /
    
  2. AI Code Review
    POST /ai/get-review
